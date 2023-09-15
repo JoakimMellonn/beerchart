@@ -27,8 +27,10 @@ function App() {
     });
     newData = new Map([...newData.entries()].sort());
     newData.forEach((beers, name) => {
-      newLabels.push(name);
-      newBeers.push(beers);
+      if (!String(name).toLowerCase().includes('tutor')) {
+        newLabels.push(name);
+        newBeers.push(beers);
+      }
     })
     if (JSON.stringify(newLabels) != JSON.stringify(labels) || JSON.stringify(newBeers) != JSON.stringify(beers)) {
       setLabels(newLabels);
