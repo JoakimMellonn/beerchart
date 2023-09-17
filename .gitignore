@@ -24,7 +24,7 @@ yarn-error.log*
 
 /.firebase
 /src/firebase.js
-.fireaserc
+.firebaserc
 firebase.json
 firestore.indexes.json
 firestore.rules
