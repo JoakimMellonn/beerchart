@@ -1,4 +1,4 @@
-# beerchart
+# beer-chart
 The beer-chart web app, is an React app accompanying the beer-app, to show a live chart of the current "standings". If this is wanted you can easily set up the beer-chart to the same back end as the beer-app is running. Please do be aware that the beer-app is needed to use this.
 
 # Table of contents
@@ -38,3 +38,5 @@ At the top of this page, choose the "Issues" tab. Search or browse to see if an 
 If you have created something awesome you think should be a permanent part of the app, please do create a pull request to contribute to the project!
 
 To do this create a new git branch locally, make your changes, commit and create a pull request. Google has a much better answer than I do on how to do this, plus I'm too lazy to write this part of the guide.
+
+yes, this is pretty much a copy of the guide from beer-app...
